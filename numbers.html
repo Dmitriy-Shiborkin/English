@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>English</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+        <link rel="manifest" href="favicon/site.webmanifest" />
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="stylesheet" type="text/css" href="style/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <nav id="nav">
+
+                <ul id="menu">
+                    <a href="index.html" ><li>Слова</li></a>
+                    <a href="numbers.html" class="active"><li>Числа</li></a>
+                    <a href="time.html"><li>Время</li></a>
+                    <a href="grammar.html"><li>Грамматика</li></a>
+                </ul>
+
+            </nav>
+
+            <main>
+
+                <select id="voice_switch">
+                    <option value="with_voice">С озвучкой</option>
+                    <option value="without_voice">Без озвучки</option>
+                </select>
+
+                <button type="button" id="btn_show_the_number_show">Показать число</button>
+
+                <button type="button" id="btn_show_the_number_hide">Скрыть число</button>
+
+                <section id="word_section_numbers_1">
+
+                    <p id="word_select_a_list_1">Выберите категорию чисел</h2>
+
+                    <div id="divv_3">
+
+                        <select id="numbers_switch">
+
+                            <option value="quantitative">Количественные</option>
+                            <option value="ordinals">Порядковые</option>
+                            <option value="decimal">Десятичные</option>
+                            <option value="fractional">Дробные</option>
+                            
+                        </select>   
+                    
+                    </div>
+
+                    <p id="word_click_on_start_2">Нажмите далее</p>
+
+                </section>
+
+                <section id="word_section_numbers_2">
+
+                    <p id="word_select_a_list">Введите числа</p>
+
+                    <div id="select_wrapper_numbers">
+
+                        <p id="min_value">от 1</p>
+
+                        <input type="text" id="select_1" class="select_numbers" />
+
+                        <p id="max_value"></p>
+
+                        <input type="text" id="select_2" class="select_numbers" />
+
+                    </div>
+
+                    <p id="word_click_on_start_3">Нажмите далее</p>
+
+                    <div id="center_numbers">
+
+                        <p id="word_show_the_number"></p>
+                        
+                    </div>
+                    
+
+                    <div class="numbers">
+
+                        <audio id="player0" src="" controls></audio>
+                        <audio id="player1" src="" controls></audio>
+                        <audio id="player2" src="" controls></audio>
+                        <audio id="player3" src="" controls></audio>
+                        <audio id="player4" src="" controls></audio>
+                        <audio id="player5" src="" controls></audio>
+                        <audio id="player6" src="" controls></audio>
+                        <audio id="player7" src="" controls></audio>
+                        <audio id="player8" src="" controls></audio>
+                        <audio id="player9" src="" controls></audio>
+                        <audio id="player10" src="" controls></audio>
+                        <audio id="player11" src="" controls></audio>
+            
+                    </div>
+
+                </section>
+
+                <section id="btn_section">
+
+                    <button type="button" class="btn_numbers" id="btn_farther_number_1">Далее</button>
+                    <button type="button" class="btn_numbers" id="btn_farther_number_2">Далее</button>
+                    <button type="button" class="btn_numbers" id="btn_farther_number_3">Далее</button>
+
+                    <button type="button" id="btn_repeat_voice"></button>
+
+                </section>
+
+            </main>
+
+        </div>
+
+        <script src="scripts/numbers.js"></script>
+
+  </body>
+
+</html>
